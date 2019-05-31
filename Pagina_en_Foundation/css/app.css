@@ -1,0 +1,93 @@
+body
+{
+  background-image: url("../img/fondo.jpg");
+  opacity: 0.9;
+}
+h1
+{
+  color: white;
+}
+h3
+{
+  color: white;
+}
+hr
+{
+  height: 1px;
+  background-color: black;
+
+}
+.button-group1
+{
+  padding-top: 70px;
+  padding-left: 100px;
+}
+
+.buscador
+{
+  padding: 5px;
+  margin-right: 15px;
+  background-color: #D5D8DC;
+  border-radius: 10px 10px 0 0;
+}
+.imgpostres
+{
+  padding: 5px;
+  margin-right: 15px;
+  background-color: #D5D8DC;
+}
+.listaAcordion
+{
+  padding: 5px;
+  margin-right: 15px;
+  background-color: #D5D8DC;
+  border-radius: 0 0 10px 10px;
+}
+
+.section
+{
+  padding: 5px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  background-color: #D5D8DC;
+  border-radius: 10px 10px 10px 10px;
+}
+.section1
+{
+  padding: 5px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  background-color: #D5D8DC;
+  border-radius: 10px 10px 10px 10px;
+}
+.section2
+{
+  padding: 5px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  background-color: #D5D8DC;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.grid-container
+{
+  background-color: rgb(52, 73, 94);
+}
+
+/*Inicio buscador*/
+.input-group-rounded .input-group-field
+{
+  border-radius: 5000px 0 0 5000px;
+  padding-left: 1rem;
+}
+
+.input-group-rounded .input-group-button .button
+{
+  border-radius: 0 5000px 5000px 0;
+  font-size: 0.8rem;
+}
+.input-group-rounded
+{
+  width: 350px;
+}
+/*Fin buscador*/

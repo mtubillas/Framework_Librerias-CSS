@@ -1,0 +1,153 @@
+.nav-item
+{
+  width: 188px;
+  background-color: orange;
+  text-align: center;
+}
+.nav-link
+{
+  color: black;
+}
+.nav-pills
+{
+  color: orange;
+}
+
+.navbar-inverse
+{
+  color: orange;
+}
+.pagina_musica
+{
+  background-color: #DC7633;
+}
+
+.contenedor-principal
+{
+  border-radius: 10px;
+  background-color: white;
+}
+.row-header
+{
+  background-color: white;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.redes
+{
+  padding-right: 170px;
+  padding-top: 39px;
+  padding-bottom: 39px;
+}
+
+.img-social
+{
+  margin: auto;
+}
+
+.logo
+{
+  padding-left: 20px;
+}
+
+.colum1
+{
+  border-radius: 10px;
+}
+
+.right
+{
+    float: right;
+}
+/*Inicio Buscador---------------------------------------------------------------------------*/
+#custom-search-input
+{
+  margin:0px;
+  margin-top: 10px;
+  margin-right: 0px;
+  padding: 0px;
+  margin: auto;
+  padding-top: 10px;
+}
+
+#custom-search-input .search-query
+{
+  padding-right: 3px;
+  padding-right: 4px \9;
+  padding-left: 3px;
+  padding-left: 4px \9;
+  margin-bottom: 0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+#custom-search-input button
+{
+  border: 0;
+  background: none;
+  padding: 2px 5px;
+  margin-top: 2px;
+  position: relative;
+  left: -28px;
+  margin-bottom: 0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  color:#D9230F;
+}
+
+.search-query:focus + button
+{
+  z-index: 3;
+}
+/*Fin Buscador---------------------------------------------------------------------------*/
+
+.imagen1
+{
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 5px;
+}
+
+.img-user
+{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.form-group
+{
+  padding-top: 19px;
+}
+
+@media only screen and (max-width: 768px)
+{
+  .right
+  {
+      display: none;
+  }
+  .redes
+  {
+    padding-right: 70px;
+    padding-top: 39px;
+    padding-bottom: 39px;
+  }
+  .nav-item
+  {
+    width: 235px;
+    background-color: orange;
+    text-align: center;
+  }
+
+}
+
+@media only screen and (max-width: 360px)
+{
+  .nav-item
+  {
+    width: 327px;
+    background-color: orange;
+    text-align: center;
+  }
+}
